@@ -25,6 +25,5 @@ function myInfo() {
     } else {
         var report = "Your Body Mass Index is: " + bmi + " this is greater than 25, so you are overweight";
         document.getElementById("report").innerHTML
-
-        
+ 
     }
