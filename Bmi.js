@@ -18,7 +18,7 @@ function myInfo() {
         var report = "Your Body Mass Index is: " + bmi + " this is between 18.5 and 25, so you are optimal";
         document.getElementById("report").innerHTML
 
-    } else if (bmi < 18.5) {
+    } else if (bmi < 18.5){
         var report = "Your Body Mass Index is: " + bmi + "this is less than 18.5, so you are underweight";
         document.getElementById("report").innerHTML
 

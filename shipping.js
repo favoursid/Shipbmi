@@ -14,7 +14,7 @@ function myParcel() {
 
     } else if (Weight > 2 && weight <= 6) {
         var cost = 2.20 * distance/500 
-        document.getElementById("cost").innerHTML = cost;
+        document.getElementById("cost").innerHTML = cost
 
     } else if (Weight > 6 && Weight <= 10) {
         var cost = 3.70 * distance/500 
@@ -23,6 +23,7 @@ function myParcel() {
         var cost = "Shipping charge per 500 miles will be $3.80";
         document.getElementById("cost")
     } 
+
 
 
 }
